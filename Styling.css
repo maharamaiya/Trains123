@@ -1,0 +1,242 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #1e3a8a;
+  text-align: center;
+}
+
+p {
+  color: #333333;
+  font-size: 17px;
+  line-height: 1.8;
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #2ecc71;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Course Section */
+.course {
+    background-color: #fff;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #219150;
+}
+
+/* Form Styles */
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    width: 100%;
+    background: #2980b9;
+    border: none;
+    padding: 12px;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+/* Footer Styles */
+footer {
+    background: #27ae60;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #27ae60;
+    text-decoration: none;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    header {
+        text-align: left;
+        padding: 15px;
+    }
+
+    section {
+        margin: 5px;
+        padding: 15px;
+    }
+
+    .course {
+        padding: 15px;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+
+    form input, form textarea {
+        padding: 8px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+    .footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer-links, .footer-social {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-links a, .footer-social a {
+  margin: 0 8px;
+  color: #27ae60;
+  text-decoration: none;
+}
+
+.footer-links a:hover, .footer-social a:hover {
+  text-decoration: underline;
+}
+}
+/* Footer Styles */
+footer {
+    background: #27ae60;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+}
+
+.footer-links, .footer-social {
+    flex: 1 1 300px;
+}
+
+.footer-links a, .footer-social a {
+    margin: 0 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer-links a:hover, .footer-social a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+/* Footer Responsive */
+@media screen and (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-links, .footer-social {
+        margin-bottom: 10px;
+    }
+<footer>
+  <div class="footer-container">
+    <div class="footer-links">
+      <p>Quick Links:</p>
+      <a href="#">Home</a> |
+      <a href="#">About Us</a> |
+      <a href="#">Courses</a> |
+      <a href="#">Contact Us</a>
+    </div>
+    <div class="footer-social">
+      <p>Follow Us:</p>
+      <a href="#">Facebook</a> |
+      <a href="#">Instagram</a> |
+      <a href="#">YouTube</a>
+    </div>
+  </div>
+  <p>© 2025 TRAINS Institute. All rights reserved.</p>
+</footer>
+}
